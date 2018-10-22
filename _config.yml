@@ -9,9 +9,9 @@ collections:
     title: Uploads
     output: true
 markdown: kramdown
-baseurl: "/acalculadora"
-theme-by: 
-author: 
+baseurl: "/site"
+theme-by:
+author:
 email: acalculadorax@gmail.com
 description: A Calculadora fornece recursos de cálculos gratuitos para todas as pessoas.
   Curamos centenas de cálculos para tornar sua experiência mais rápida e agradável.
