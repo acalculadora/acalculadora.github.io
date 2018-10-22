@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 markdown: kramdown
-baseurl: "/site"
+baseurl: ""
 theme-by:
 author:
 email: acalculadorax@gmail.com
