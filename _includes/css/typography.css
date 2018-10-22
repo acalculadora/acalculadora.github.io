@@ -1,0 +1,42 @@
+/* Typography */
+::-moz-selection{
+  color:#fff;
+  background: var(--primary-color);
+}
+::selection {
+  color:#fff;
+  background: var(--primary-color);
+}
+.text-bold {
+  font-weight: bold;
+}
+/* #Headlines */
+h1,
+.headline {
+  font-size: 56px;
+  line-height: 56px;
+  margin-bottom: 0;
+}
+h2, h4 {
+  margin: 20px 0 5px 0;
+}
+
+/* #Sub-headlines */
+.healine-small {
+  font-size: 34.61px;
+  color: var(--primary-color);
+  margin: 0 0 20px 0;
+}
+.section-content-calculator-infos p {
+  text-indent: 40px;
+  margin-bottom: 30px;
+}
+.section-content p.text-content-indent,
+.text-content-indent {
+  text-indent: 0;
+  padding-left: 40px;
+}
+.section-content p.text-no-indent,
+.text-no-indent {
+  text-indent: 0;
+}

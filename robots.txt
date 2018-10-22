@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /img/
+
+User-agent: Twitterbot
+Allow: /img/
+
+User-agent: facebookexternalhit
+Allow: /img/
+
+Sitemap: http://www.acalculadora.com.br/sitemap.xml

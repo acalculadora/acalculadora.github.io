@@ -1,0 +1,27 @@
+---
+title: A Calculadora
+timezone: America/Sao_Paulo
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+markdown: kramdown
+baseurl: "/acalculadora"
+theme-by: 
+author: 
+email: acalculadorax@gmail.com
+description: A Calculadora fornece recursos de cálculos gratuitos para todas as pessoas.
+  Curamos centenas de cálculos para tornar sua experiência mais rápida e agradável.
+categories:
+- mathematics
+- health
+exclude:
+- README.md
+- Gemfile.lock
+- vendor
+- package.json
+- gulpfile.js
+- node_modules

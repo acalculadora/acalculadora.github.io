@@ -1,0 +1,81 @@
+---
+title: Regra de três
+metatags: INDEX,FOLLOW
+description: Calcular regra de três. Calcule online a regra de três simples e a regra
+  de três composta.
+keywords: regra de três, regra de 3, regra de tres
+script:
+- regradetres.js
+modules:
+- modules.js
+cdn: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML
+layout: calculadoras
+categories: mathematics
+---
+
+<section id="calculadora-de-porcentagem" class="section-calculadoras">
+  <div class="section-content flex" id="content">
+    <div class="col-9">
+      <div class="section-headline">
+        <h1 class="healine-small">
+          {{page.title}}
+        </h1>
+      </div>
+
+      <div class="card card-calculator regraSimples">
+        <h3 class="card-title-position-absolute">Regra de três simples</h3>
+        <div class="m-row flex">
+          <div class="col-5">
+            <div class="col-item">
+              <input type="radio" name="isReult" value="1">
+              <input type="text" name="" class="inp1" value="" tabindex="1">
+            </div>
+            <div class="col-item">
+              <input type="radio" name="isReult" value="2">
+              <input type="text" name="" class="inp2" value="" tabindex="3">
+            </div>
+          </div>
+
+          <div class="col-5">
+            <div class="col-item">
+              <input type="radio" name="isReult" value="3">
+              <input type="text" name="" class="inp3" value="" tabindex="2">
+            </div>
+            <div class="col-item">
+              <input type="radio" name="isReult" value="4" checked>
+              <input type="text" name="" class="inp4 card-result" value="" tabindex="4">
+            </div>
+          </div>
+        </div>
+
+        <br />
+
+
+        <div class="copy-result-container">
+          <button id="copyButton" class="btn-flat" type="button" name="button">Copiar resultado</button>
+          <div class="copyStatus"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-1">
+
+    </div>
+    <aside class="aside-infos col-2">
+      ...
+    </aside>
+  </div>
+</section>
+<section class="section-content flex section-content-calculator-infos">
+  <div class="col-9">
+    <h2>Regra de três simples</h2>
+    <!-- <p>
+      $$\frac {a}{b} \times \frac {c}{d}\Rightarrow d=\frac {b \times c}{a}$$
+    </p> -->
+  </div>
+  <div class="col-1">
+
+  </div>
+  <div class="col-2">
+    ...
+  </div>
+</section>

@@ -1,0 +1,38 @@
+---
+layout: landing
+---
+
+<section class="section-calculadoras">
+  <div class="section-content flex">
+    <div class="section-calculators">
+      <h2>
+        As Calculadoras
+      </h2>
+      <div class="card">
+        <h3>Matemática</h3>
+        {% for page in site.pages %}
+        {% if page.categories contains 'mathematics' %}
+        <div class="item">
+          <h3><a href="{{ page.url }}">
+            {{ page.title }}
+          </a></h3>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="card">
+        <h3>Saúde</h3>
+        {% for page in site.pages %}
+        {% if page.categories contains 'health' %}
+        <div class="item">
+          <h3><a href="{{ page.url }}">
+            {{ page.title }}
+          </a></h3>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

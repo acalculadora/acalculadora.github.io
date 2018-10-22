@@ -1,0 +1,114 @@
+---
+title: Calcular IMC
+metatags: INDEX,FOLLOW
+description: Calcular IMC online. IMC é o índice de massa corporal, medida da gordura
+  corporal dos adultos. Veja também a tabela de IMC da OMS.
+keywords: calcular imc, calculadora de imc, tabela imc, tabela de imc
+script:
+- imc.js
+modules:
+- modules.js
+cdn: https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js
+layout: calculadoras
+categories: health
+---
+
+<section id="calculadora-de-porcentagem" class="section-calculadoras">
+  <div class="section-content flex" id="content">
+    <div class="col-9">
+      <div class="section-headline">
+        <h1 class="healine-small">
+          {{page.title}}
+        </h1>
+      </div>
+
+      <div class="card card-calculator">
+        <span class="m-row">
+          Meu peso é
+          <input class="calcOneA input-calculator" type="tel" pattern="\d*" name="" value="">,
+        </span>
+        <span class="m-row">
+          Minha altura é,
+          <input class="calcOneB input-calculator" type="tel" pattern="[0-9]*" name="" value="" data-mask="0,00" data-mask-reverse="true">.
+        </span>
+        <span class="m-row">
+          Então o meu IMC é
+          <input val="" id="copyResult" class="resultIMC card-result result-calc01">
+        </span>
+        <br />
+        <span class="m-row">
+          <div class="infoIMC margin-top-40"></div>
+        </span>
+        <div class="copy-result-container">
+          <button id="copyButton" class="btn-flat" type="button" name="button">Copiar resultado</button>
+          <div class="copyStatus"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-1">
+
+    </div>
+    <aside class="aside-infos col-2">
+      ...
+    </aside>
+  </div>
+</section>
+<section class="section-content flex section-content-calculator-infos">
+  <div class="col-9">
+    <h2>O que é IMC</h2>
+    <p class="no-indent">
+      IMC é o índice de massa corporal, uma medida da gordura corporal.
+    </p>
+    <p class="no-indent">
+      <b>Abaixo a tabela de referência da OMS para IMC</b>
+      <table class="table">
+        <caption>Tabela de IMC, Classificação do Índice de Massa Corporal</caption>
+        <thead>
+          <tr>
+            <th>IMC</th>
+            <th>Classificação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Abaixo de 17</td>
+            <td>Magreza mórbida</td>
+          </tr>
+          <tr>
+            <td>Abaixo de 18,5</td>
+            <td>Magreza</td>
+          </tr>
+          <tr>
+            <td>Entre 18,6 e 24,9</td>
+            <td>Saudável</td>
+          </tr>
+          <tr>
+            <td>Entre 25,0 e 29,9</td>
+            <td>Sobrepeso</td>
+          </tr>
+          <tr>
+            <td>Entre 30,0 e 34,9</td>
+            <td>Obesidade Grau I</td>
+          </tr>
+          <tr>
+            <td>Entre 35,0 - 39,9</td>
+            <td>Obesidade Grau II (severa)</td>
+          </tr>
+          <tr>
+            <td>IMC acima de 40</td>
+            <td>Obesidade Grau III (mórbida)</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <a href="http://portalms.saude.gov.br/component/content/article/804-imc/40509-imc-em-adultos" target="_blank">Fonte e mais detalhes da classificação do IMC no site do Ministério da Saúde</a>.
+    </p>
+
+  </div>
+  <div class="col-1">
+
+  </div>
+  <div class="col-2">
+    ...
+  </div>
+</section>

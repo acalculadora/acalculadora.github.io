@@ -1,0 +1,18 @@
+/* Navegation */
+ .mobile-navegation {
+  position: absolute;
+  right: 20px;
+  top: 27px;
+  cursor: pointer;
+}
+.navegation-link-content {
+  display: inline-block;
+  margin-left: 60px;
+}
+.navegation-link {
+  font-weight: normal;
+}
+.navegation-itens {
+  color: var(--text-color);
+  font-weight: bold;
+}

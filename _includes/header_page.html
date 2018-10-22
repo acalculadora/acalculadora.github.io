@@ -1,0 +1,37 @@
+<header class="site-header" role="banner">
+  <div class="header-content">
+    <a accesskey="1" href="#content" tabindex="0" style="position: absolute; left: -9999px;">
+      Pular para Calculadoras
+    </a>
+    <div class="mobile-navegation">
+      <a href="#" class="icon icon-menu"></a>
+    </div>
+    <div class="header-navegation navegation-landing">
+      <a class="logo-name" href="/">
+        <i class="logo-small logo-header icon logo"></i>
+        a.Calculadora
+      </a>
+      <div class="navegation-link-content">
+        <ul class="navegation-itens">
+          <li>
+            <button class="navegation-iten nav-btn btn-flat btn-drop-down" type="button" name="button" aria-expanded="false">
+              Calculadoras
+            </button>
+            <ul class="mobile calculators-all">
+              <span class="mobile mobile-nav-headline">
+                Calculadoras
+              </span>
+              {% for page in site.pages %}
+                {% if page.layout == "calculadoras" %}
+                <li class="item-content">
+                  <a class="navegation-link" href="{{page.url}}">{{page.title}}</a>
+                </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

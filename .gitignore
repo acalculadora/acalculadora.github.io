@@ -1,0 +1,15 @@
+_site
+*.log
+/tmp/
+*~
+.asset-cache
+.bundle
+.DS_Store
+.jekyll-metadata
+.project
+.sass-cache
+bin
+node_modules
+vendor
+package.json
+gulpfile.js

@@ -1,0 +1,56 @@
+/* #Forms */
+label {
+}
+input.card-result {
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+
+.input-calculator {
+  border: 0;
+  border-bottom: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 1.2em;
+  /* display: inline-block; */
+  vertical-align: bottom;
+  max-width: 150px;
+  font-weight: bold;
+  outline: none;
+}
+.input-calculator:focus {
+  background: #f4f4f4;
+}
+
+/* #Buttons */
+a.button,
+.button {
+
+}
+
+a.button:hover,
+.button:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.button-small {
+
+}
+button.btn-flat,
+.btn-flat {
+  color: var(--primary-color);
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  background: 0;
+  padding: 0;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+button.btn-drop-down::after{
+  content: '▼';
+}
