@@ -10,7 +10,7 @@ collections:
     output: true
 markdown: kramdown
 baseurl: ""
-theme-by:
+theme-by: av
 author:
 email: acalculadorax@gmail.com
 description: A Calculadora fornece recursos de cálculos gratuitos para todas as pessoas.
