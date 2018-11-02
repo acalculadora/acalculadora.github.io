@@ -5,11 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1">
   <title>{{ site.title }}{% if page.title %} — {{ page.title }} {% endif %}</title>
-  {% if page.metatags %}
-  <meta name="robots" content="{{page.metatags}}">
-  <meta name="description" content="{{page.description}}">
-  <meta name="keywords" content="{{page.keywords}}">
-  {% endif %}
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="{{site.description}}">
+  <meta name="keywords" content="{{site.keywords}}">
   <link href="/css/main.css" rel="stylesheet">
   <link rel="icon" href="/img/favico.png" type="image/png">
   {% if jekyll.environment == "production" %}
