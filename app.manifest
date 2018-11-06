@@ -1,0 +1,12 @@
+{
+  "name": "ACalculadora",
+  "start_url" : "./",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/img/favico.png",
+      "sizes" : "512x512",
+      "type" : "image/png"
+    }
+  ]
+}
