@@ -11,6 +11,16 @@ layout: calculadoras
 categories: mathematics
 ---
 
+{% if jekyll.environment == "production" %}
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-9286667299616444",
+      enable_page_level_ads: true
+    });
+  </script>
+{% endif %}
+
 <section id="calculadora-de-porcentagem" class="section-calculadoras">
   <div class="section-content flex" id="content">
     <div class="col-9">
